@@ -8,7 +8,7 @@ import { useAppSelector } from "redux/hooks";
 import { selectSocketIsConnected } from "redux/slices/socketSlice";
 import { useContext } from "react";
 import SocketContext from "contexts/socketContext";
-import NavButton from "./navButton";
+import NavButton from "./NavButton";
 
 // Taken from merakiui
 export default function Navbar() {
